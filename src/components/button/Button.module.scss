@@ -1,0 +1,13 @@
+.Button {
+    @apply py-[.25rem] px-4;
+    @apply hover:bg-opacity-90 transition-all ease-in-out;
+    @apply uppercase;
+}
+
+.primary {
+    @apply bg-blackie text-white;
+}
+
+.secondary {
+    @apply bg-rose-gold;
+}

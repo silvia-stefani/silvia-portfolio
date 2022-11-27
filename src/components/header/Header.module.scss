@@ -1,0 +1,43 @@
+.Header {
+    @apply fixed w-full z-[1000] justify-between items-center;
+    @apply h-[5vh] py-1 px-4;
+    @apply text-base;
+    .left {
+
+        @apply flex items-center h-full;
+
+        .identity {
+            @apply flex items-center mr-4 uppercase;
+        }
+        .nav_desktop {
+            @apply hidden md:flex justify-start items-center;
+                li {
+                    @apply flex;
+                    @apply uppercase mr-4 text-sm text-center;
+                }
+        }
+    }
+    .right {
+
+        @apply flex justify-end items-center;
+            
+        .nav_mobile {
+            @apply flex justify-start items-center h-screen w-full z-50;
+            @apply bg-white fixed top-0 left-0;
+            @apply md:hidden md:h-full;
+
+            ul {
+                @apply w-full;
+
+                li {
+                    @apply uppercase text-sm text-center;
+                    @apply mb-4;
+                }
+            }
+        }
+
+        .toggle_mobile {
+            @apply block md:hidden;
+        }
+    }
+}

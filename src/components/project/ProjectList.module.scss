@@ -1,0 +1,52 @@
+@import '../../assets/sass/lib/vars';
+
+.project {
+    
+    cursor: pointer;
+
+    border-bottom: .07rem solid black;
+    height: 100%;
+    overflow: hidden;
+
+    .title {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        gap: 8px;
+
+        .name {
+            @apply uppercase;
+        }
+    }
+
+    .images_container {
+
+        @apply grid px-4 gap-4;
+        grid-template-columns: 200px 1fr;
+        overflow: hidden;
+        width: 100%;
+
+        .description {
+
+            .tags {
+                @apply flex;
+            }
+
+        }
+
+        .image {
+
+            @apply h-[90%] w-full;
+
+            img {
+                height: fit-content;
+                object-fit: contain;
+            }
+
+        }
+
+    }
+}
+

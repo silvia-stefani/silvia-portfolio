@@ -1,0 +1,50 @@
+@import "/src/assets/sass/lib/vars";
+
+.Home {
+    @apply flex flex-col gap-16 p-4;
+
+    .description {
+        
+        @apply w-full;
+
+        h2 {
+            @apply md:text-[3rem] text-[2rem] font-light leading-normal;
+            color: $primary;
+        }
+
+        .pop {
+            font-weight: 400;
+            margin: 0 16px;
+            
+            &::after {
+                content: "*";
+                font-size: 2rem;
+                vertical-align: top;
+                padding-left: .5rem;
+            }
+
+            &:hover {
+
+                .pop_box {
+                    @apply flex;
+                }
+            
+            }
+            .pop_box {
+                transform: translate(-50%, -50%);
+                pointer-events: none;
+                @apply hidden fixed w-[20rem] flex-wrap;
+                @apply text-[1rem] font-normal;
+                @apply p-4 bg-blackie text-white;
+            }
+        }
+
+    }
+
+    .features {
+        @apply flex h-full flex-grow;
+        @apply text-[2rem] font-light;
+        color: $point;
+    }
+
+}

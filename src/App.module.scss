@@ -1,0 +1,32 @@
+@import "/src/assets/sass/lib/vars";
+
+.App {
+  
+  cursor: none;
+  @apply h-[100vh] flex flex-col;
+  
+  .pointColor {
+    position: fixed;
+    z-index: -1;
+    background: radial-gradient(circle closest-side, $point, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 1s ease, height 1s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .point {
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      background-color: black;
+
+    }
+  }
+
+  main {
+    @apply flex-grow pt-16;
+  }
+
+}

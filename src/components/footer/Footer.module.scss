@@ -1,0 +1,21 @@
+.Footer {
+    @apply bg-stone-900 w-full z-10;
+    @apply p-2;
+    @apply flex items-center justify-between;
+
+    .items {
+        @apply text-white w-full;
+        @apply flex items-center justify-between;
+
+        p {
+            @apply text-xs;
+        }
+
+        .copyright {
+            @apply align-middle;
+        }
+        .contacts {
+            @apply flex text-lg;
+        }
+    }
+}

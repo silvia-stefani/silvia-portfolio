@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@use '/src/assets/sass/lib/vars';
+
+body {
+  margin: 0;
+  font-family: $font-family-body;
+
+  @apply bg-stone-50 text-slate-900;
+  
+}
+
+h1 {
+
+  @apply text-2xl;
+
+}
+
+h2 {
+  @apply uppercase font-thin;
+}
+
+p {
+  @apply text-sm;
+}
+
+
+
+input.color_input {
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+}
+
+input.color_input::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
