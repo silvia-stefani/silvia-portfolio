@@ -64,7 +64,7 @@ export default function Home() {
       </motion.div>
 
       <motion.div className={styles.features}
-        initial={{ translateY: "100%" }}
+        initial={{ translateY: "200%" }}
         animate={{ translateY: "0%" }}
         transition={{ duration: .4, type: "spring", delay: 1, ease: "easeIn" }}>
         projects coming soon</motion.div>

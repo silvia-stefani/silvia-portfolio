@@ -9,17 +9,11 @@ const Header = () => {
   return (
     <header className={styles.Header} >
 
-      <div className={styles.left}>
-        <div className={styles.identity}>
-
-          <Link to="/">
-            <p style={{marginRight: ".5rem"}}>Silvia Stefani</p>
-          </Link>
-          <Smiley />
-        </div>
-
-      </div>
-
+      <nav className={styles.navbar}>
+        <ul className={styles.menu}>
+          <Link to="/"><li className={styles.menu_item}>Silvia Stefani<Smiley /></li></Link>
+        </ul>
+      </nav>
 
     </header>
   );
