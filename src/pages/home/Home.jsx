@@ -32,24 +32,19 @@ export default function Home() {
           <span className={styles.pop}>
             graphic design formation
             <div className={styles.pop_box} style={{ top: y, left: x }}>
-              
-              <div>
                 <Tag label={about.studies[1].when} />
                 <Tag label={about.studies[1].level+ " in " +about.studies[1].what} />
                 <Tag label={about.studies[1].where} />
-              </div>
-              
             </div>  
           </span> base, i'm actually specialized on 
           
           <span className={styles.pop}>
             UX/UI Design
             <div className={styles.pop_box} style={{ top: y, left: x }}>
-              <div>
                 <Tag label={about.studies[0].when} />
                 <Tag label={about.studies[0].level+ " in " +about.studies[0].what} />
                 <Tag label={about.studies[0].where} />
-              </div>
+
             </div> 
           </span> with Frontend 
           

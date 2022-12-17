@@ -3,7 +3,9 @@
 .App {
   
   cursor: none;
-  @apply h-[100vh] flex flex-col;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   
   .pointColor {
     position: fixed;
@@ -26,7 +28,9 @@
   }
 
   main {
-    @apply flex-grow pb-16;
+    width: 100%;
+    flex-grow: 1;
+    padding-bottom: 32px;
   }
 
 }
