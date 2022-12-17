@@ -1,21 +1,46 @@
 .Footer {
-    @apply bg-stone-900 w-full z-10;
-    @apply p-2;
-    @apply flex items-center justify-between;
+    color: white;
+    background-color: #212121;
+    width: 100%;
+    padding: 8px 16px;
+    z-index: 20;
 
     .items {
-        @apply text-white w-full;
-        @apply flex items-center justify-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        align-items: center;
+        width: 100%;
+        text-align: center;
 
         p {
-            @apply text-xs;
+            font-size: 14px;
+        }
+
+        .location {
+            text-align: start;
         }
 
         .copyright {
-            @apply align-middle;
+            text-align: center;
         }
+
         .contacts {
-            @apply flex text-lg;
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+        }
+
+        @media (max-width:768px) {
+            grid-template-columns: 1fr auto;
+            .location, .copyright {
+                grid-column: 1 / span 1;
+                text-align: start;
+            }
+            .contacts {
+                grid-column: span 1 / -1;
+                grid-row: 1 / span 1;
+            }
         }
     }
 }

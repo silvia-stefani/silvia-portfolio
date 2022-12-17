@@ -5,10 +5,11 @@
 
     .description {
         
-        @apply w-full;
+        width: 100%;
+        max-width: 700px;
 
         h2 {
-            @apply md:text-[3rem] text-[2rem] font-light leading-normal;
+            @apply md:text-[3rem] text-[2.5rem] font-light leading-normal;
             color: $primary;
         }
 
