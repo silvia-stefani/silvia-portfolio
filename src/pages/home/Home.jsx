@@ -5,6 +5,7 @@ import about from '/src/models/about';
 import { motion } from "framer-motion";
 
 import Tag from "../../components/tag/Tag";
+import Spotify from "react-spotify-embed";
 
 
 export default function Home() {
@@ -63,11 +64,10 @@ export default function Home() {
 
       </motion.div>
 
-      <motion.div className={styles.features}
-        initial={{ translateY: "100%" }}
-        animate={{ translateY: "0%" }}
-        transition={{ duration: .4, type: "spring", delay: 1, ease: "easeIn" }}>
-        projects coming soon</motion.div>
+      <div className={styles.spotify_song}>
+      My song of the moment:
+      <Spotify wide link="https://open.spotify.com/track/4sv1npiIujQ20owmrMj8DM?si=57f3f63308e34795" />
+      </div>
 
     </main>
 

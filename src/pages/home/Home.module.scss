@@ -41,6 +41,24 @@
 
     }
 
+    .spotify_song {
+
+        top: 16px;
+        right: 16px;
+        font-size: 12px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        @apply md:fixed;
+
+        iframe {
+            max-width: 250px;
+        }
+
+    }
+
     .features {
         @apply flex h-full flex-grow;
         @apply text-[2rem] font-light;

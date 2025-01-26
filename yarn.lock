@@ -1204,6 +1204,14 @@
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.2"
 
+"react-dom@^18.2.0":
+  "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+  "version" "18.2.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "scheduler" "^0.23.0"
+
 "react-draggable@^4.4.5":
   "integrity" "sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g=="
   "resolved" "https://registry.npmjs.org/react-draggable/-/react-draggable-4.4.5.tgz"
@@ -1242,6 +1250,14 @@
   dependencies:
     "history" "^5.2.0"
 
+"react-spotify-embed@^1.0.4":
+  "integrity" "sha512-pgDh/K2KlmZ6z+18EHgTfsnZDNeHGsck+VIIbM/bC5qkE57YIwkxaTNMq9CzgB6jXDjjjRgAdU5j8cmNsB8L2w=="
+  "resolved" "https://registry.npmjs.org/react-spotify-embed/-/react-spotify-embed-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
+
 "react@^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0", "react@^17.0.2", "react@>= 16.3.0", "react@>=16", "react@>=16.8", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@16.x || 17.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
@@ -1249,6 +1265,13 @@
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
+
+"react@^18.2.0":
+  "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
+  "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  "version" "18.2.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
 
 "read-cache@^1.0.0":
   "integrity" "sha1-5mTvMRYRZsl1HNvo28+GtftY93Q="
@@ -1323,6 +1346,13 @@
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
+
+"scheduler@^0.23.0":
+  "integrity" "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+  "version" "0.23.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
 
 "semver@^6.0.0", "semver@^6.3.0":
   "integrity" "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw=="
