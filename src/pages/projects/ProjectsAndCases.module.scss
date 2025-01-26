@@ -1,0 +1,27 @@
+@import "/src/assets/sass/lib/vars";
+
+.ProjectsCases {
+
+    @apply min-h-screen;
+
+    .title {
+        @apply text-2xl p-4;
+    }
+
+    .projects_left {
+
+
+        .interactive {
+            @apply w-full;
+        }
+    }
+
+    .projects_right {
+
+        @apply md:h-screen ;
+
+        .graphic {
+            @apply w-full;
+        }
+    }
+}
